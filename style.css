@@ -1,5 +1,33 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.header,
+.hero {
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero p, .header a {
+    font-size: 18px;
+    color: red;
 }
 
 .information-image {
