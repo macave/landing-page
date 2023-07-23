@@ -4,30 +4,41 @@
 }
 
 .header {
+    background: #1F2937;
+    color: #F9FAF8;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 10px 400px;
 }
 
 .logo {
     margin-right: auto;
 }
 
-.header,
 .hero {
     background: #1F2937;
     color: #F9FAF8;
     display: flex;
+    padding: 60px 400px;
+    justify-content: space-between;
 }
 
 .hero h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .hero p,
 .header a {
     font-size: 18px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.header a:hover {
+    color: #a7d0ff;
 }
 
 .hero-image img {
@@ -35,15 +46,21 @@
     height: 250px;
 }
 
+.information {
+    padding: 80px 400px;
+}
+
 .information h1 {
     text-align: center;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #1F2937;
+    margin-bottom: 50px;
 }
 
 .information-content {
     display: flex;
+    justify-content: space-between;
 }
 
 .information-image {
@@ -52,11 +69,19 @@
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
     background: #E5E7EB;
+    align-items: center;
+    padding: 0px 400px;
 }
 
 .quote i {
     font-size: 36px;
     color: #1F2937;
     font-weight: lighter;
+}
+
+.quote p {
+    align-self: flex-end;
 }
