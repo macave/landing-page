@@ -26,14 +26,31 @@
 
 .hero h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
-.hero p,
-.header a {
+.hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
     font-size: 18px;
+    font-weight: 900;
+}
+
+.header a {
+    font-size: 24px;
     padding-left: 10px;
     text-decoration: none;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 24px;
+    font-weight: 300;
     color: #F9FAF8;
 }
 
@@ -53,7 +70,7 @@
 .information h1 {
     text-align: center;
     font-size: 36px;
-    font-weight: bold;
+    font-weight: 900;
     color: #1F2937;
     margin-bottom: 50px;
 }
@@ -73,7 +90,7 @@
     flex-direction: column;
     background: #E5E7EB;
     align-items: center;
-    padding: 0px 400px;
+    padding: 100px 500px;
 }
 
 .quote i {
@@ -84,4 +101,6 @@
 
 .quote p {
     align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
 }
