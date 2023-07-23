@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -25,9 +25,25 @@
     font-weight: bolder;
 }
 
-.hero p, .header a {
+.hero p,
+.header a {
     font-size: 18px;
-    color: red;
+}
+
+.hero-image img {
+    width: 400px;
+    height: 250px;
+}
+
+.information h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information-content {
+    display: flex;
 }
 
 .information-image {
@@ -35,7 +51,12 @@
     height: auto;
 }
 
-.hero-image {
-    width: 400px;
-    height: auto;
+.quote {
+    background: #E5E7EB;
+}
+
+.quote i {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
 }
