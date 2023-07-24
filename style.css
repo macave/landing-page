@@ -50,15 +50,20 @@
     font-weight: 900;
 }
 
+.hero button:hover {
+    background: #619cfa;
+    color: #F9FAF8;
+}
+
 .header a {
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 10px;
     text-decoration: none;
     color: #F9FAF8;
 }
 
 .hero p {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 300;
     color: #F9FAF8;
     margin-top: 10px;
@@ -70,7 +75,7 @@
 }
 
 .hero-image img {
-    width: 600px;
+    width: 450px;
     height: 350px;
     object-fit: cover;
     margin-left: 50px;
@@ -96,7 +101,7 @@
 }
 
 .information-content div {
-    width: 280px;
+    width: 200px;
     height: auto;
     text-align: center;
     font-size: 18px;
@@ -108,8 +113,9 @@
 }
 
 .information-image {
-    width: 280px;
-    height: 280px;
+    opacity: 1;
+    width: 200px;
+    height: 200px;
     border: 4px solid #3882F6;
     border-radius: 12px;
     object-fit: cover;
@@ -144,7 +150,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 60px;
-    margin: 50px 20%;
+    margin: 75px 20%;
     border-radius: 12px;
 }
 
@@ -166,19 +172,12 @@
     border-radius: 12px;
     font-size: 16px;
     font-weight: 900;
-    padding: 16px 28px;
+    padding: 10px 24px;
     color: #F9FAF8;
     margin-left: auto;
 }
 
 .action-call button:hover {
-    border: #F9FAF8;
-    background: rgba(249, 250, 248, 0.1);
-    border-style: solid;
-    border-radius: 12px;
-    font-size: 16px;
-    font-weight: 900;
-    padding: 16px 28px;
-    color: #F9FAF8;
-    margin-left: auto;
+    background: #F9FAF8;
+    color: #3882F6;
 }
