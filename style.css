@@ -142,24 +142,43 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     padding: 60px;
     margin: 50px 20%;
     border-radius: 12px;
 }
 
 .action-call-text h2 {
+    font-size: 28px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+.action-call p {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .action-call button {
-    border:#F9FAF8;
+    border: #F9FAF8;
     background: none;
     border-style: solid;
     border-radius: 12px;
     font-size: 16px;
     font-weight: 900;
-    padding: 12px 24px;
+    padding: 16px 28px;
+    color: #F9FAF8;
+    margin-left: auto;
+}
+
+.action-call button:hover {
+    border: #F9FAF8;
+    background: rgba(249, 250, 248, 0.1);
+    border-style: solid;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 16px 28px;
     color: #F9FAF8;
     margin-left: auto;
 }
