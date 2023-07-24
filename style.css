@@ -95,9 +95,21 @@
     flex-wrap: wrap;
 }
 
-.information-image {
-    width: 250px;
+.information-content div {
+    width: 280px;
     height: auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.information-content p {
+    padding-top: 10px;
+}
+
+.information-image {
+    width: 280px;
+    height: 280px;
     border: 4px solid #3882F6;
     border-radius: 12px;
     object-fit: cover;
