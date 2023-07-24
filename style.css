@@ -3,25 +3,34 @@
     margin: 0;
 }
 
+.page-padding {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 .header {
     background: #1F2937;
     color: #F9FAF8;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 10px 400px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .logo {
     margin-right: auto;
+    font-size: 26px;
 }
 
 .hero {
     background: #1F2937;
     color: #F9FAF8;
     display: flex;
-    padding: 60px 400px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .hero h1 {
@@ -42,7 +51,7 @@
 }
 
 .header a {
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 10px;
     text-decoration: none;
     color: #F9FAF8;
@@ -52,6 +61,8 @@
     font-size: 24px;
     font-weight: 300;
     color: #F9FAF8;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .header a:hover {
@@ -59,12 +70,15 @@
 }
 
 .hero-image img {
-    width: 400px;
-    height: 250px;
+    width: 600px;
+    height: 350px;
+    object-fit: cover;
+    margin-left: 50px;
 }
 
 .information {
-    padding: 80px 400px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .information h1 {
@@ -78,11 +92,15 @@
 .information-content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .information-image {
     width: 250px;
     height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    object-fit: cover;
 }
 
 .quote {
@@ -90,7 +108,8 @@
     flex-direction: column;
     background: #E5E7EB;
     align-items: center;
-    padding: 100px 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .quote i {
@@ -103,4 +122,32 @@
     align-self: flex-end;
     font-size: 24px;
     font-weight: 700;
+}
+
+.action-call {
+    background: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px;
+    margin: 50px 20%;
+    border-radius: 12px;
+}
+
+.action-call-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action-call button {
+    border:#F9FAF8;
+    background: none;
+    border-style: solid;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 12px 24px;
+    color: #F9FAF8;
+    margin-left: auto;
 }
