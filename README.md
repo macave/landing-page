@@ -2,7 +2,7 @@
 The Odin Project: Landing Page
 
 
-Image Credit:
+Credits:
 
 Ocean Hero Image: https://unsplash.com/photos/4wFqHZ1ONnM
 
@@ -13,3 +13,6 @@ Information Image #2: https://unsplash.com/photos/5_uyJOrTZmc
 Information Image #3: https://unsplash.com/photos/Z5LfMf6L7k0
 
 Information Image #4: https://unsplash.com/photos/VW-Cu5FJjSM
+
+Favicon: https://www.flaticon.com/free-icons/cow" title="cow icons"
+Cow icons created by Freepik - Flaticon
